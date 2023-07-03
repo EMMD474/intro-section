@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <script src="script/script.js" async></script>
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <section class="nav-bar">
+          <h1>snap</h1>
+          <div class="nav">
+            <div class="links">
+             <div class="dropdown">
+              <button class="hover">Feature <img class="img" src="images/icon-arrow-down.svg" alt=""></button>
+              <div class="drop">
+                <a href="#"><img src="images/icon-todo.svg" alt="">Todo List</a>
+                <a href="#"><img src="images/icon-calendar.svg" alt="">Calendar</a>
+                <a href="#"><img src="images/icon-reminders.svg" alt="">Reminders</a>
+                <a href="#"><img src="images/icon-planning.svg" alt="">Planning</a>
+              </div>
+             </div>
+             <div class="dropdown">
+              <button class="hover">Company <img class="img" src="images/icon-arrow-down.svg" alt=""></button>
+              <div class="drop">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </div>
+             </div>
+              <a href="#">Careers</a>
+              <a href="#">About</a>
+              
+            </div>
+            <div class="nav-right">
+              <a href="#" class="login">Login</a>
+              <a href="#" class="register">Register</a>
+            </div>
+          </div>
+            <div class="mobile-nav">
+              <img class="menu" src="images/icon-menu.svg" alt="">
+              <div class="display">
+                <div class="menu-close">
+                  <img src="images/icon-close-menu.svg" class="close">
+                </div>
+                <div class="links">
+                  <div class="dropdown">
+                   <button class="btn">Feature <img class="image" src="images/icon-arrow-down.svg" alt=""></button>
+                   <div class="drop">
+                     <a href="#"><img src="images/icon-todo.svg" alt="">Todo List</a>
+                     <a href="#"><img src="images/icon-calendar.svg" alt="">Calendar</a>
+                     <a href="#"><img src="images/icon-reminders.svg" alt="">Reminders</a>
+                     <a href="#"><img src="images/icon-planning.svg" alt="">Planning</a>
+                   </div>
+                  </div>
+                  <div class="dropdown">
+                   <button class="btn">Company  <img class="image" src="images/icon-arrow-down.svg" alt=""></button>
+                   <div class="drop">
+                     <a href="#">History</a>
+                     <a href="#">Our Team</a>
+                     <a href="#">Blog</a>
+                   </div>
+                  </div>
+                   <a class="car" href="#">Careers</a>
+                   <a class="about" href="#">About</a>
+                   <div class="nav-right">
+                     <a href="#" class="login">Login</a>
+                     <a href="#" class="register">Register</a>
+                   </div>
+                 </div>
+              </div>
+  
+          </div>
+        </section>
+  
+        <section class="body">
+          <div class="left-align">
+            <h2 class="heading">Make <span>remote work</span></h2>
+            <p class="para">
+              Get your team in sync, no matter your location. Streamline processes, 
+              create team rituals, and watch productivity soar.
+            </p>
+            <span class="button">
+              Learn more
+            </span>
+          <div class="label">
+            <img src="images/client-databiz.svg" alt="">
+            <img src="images/client-audiophile.svg" alt="">
+            <img src="images/client-meet.svg" alt="">
+            <img src="images/client-maker.svg" alt="">
+          </div>
+        </div>
+        <div class="right-align">
+          <picture class="pic">
+            <source media="(min-width: 800px)" srcset="images/image-hero-desktop.png">
+            <img src="images/image-hero-mobile.png" alt="">
+          </picture>
+        </div>
+        </section>
+        <div class="try"></div>
+      
+    </div>
+    
+ 
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Emmanuel Banda</a>.
+  </div> -->
+</body>
+</html>
